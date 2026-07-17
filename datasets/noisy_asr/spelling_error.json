@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "query": "Correct my spelling",
+    "intent": "spelling_correction",
+    "entities": {},
+    "response": "Sure, I can help correct spelling mistakes."
+  },
+  {
+    "id": 2,
+    "query": "Check spelling of this word",
+    "intent": "spell_check",
+    "entities": {},
+    "response": "Please provide the word you want me to check."
+  },
+  {
+    "id": 3,
+    "query": "How do you spell this?",
+    "intent": "spell_word",
+    "entities": {},
+    "response": "Tell me the word and I'll provide the correct spelling."
+  },
+  {
+    "id": 4,
+    "query": "Spell apple",
+    "intent": "spell_word",
+    "entities": {
+      "word": "apple"
+    },
+    "response": "Apple is spelled A-P-P-L-E."
+  },
+  {
+    "id": 5,
+    "query": "Is this spelling correct?",
+    "intent": "spell_check",
+    "entities": {},
+    "response": "I'll check the spelling for you."
+  },
+  {
+    "id": 6,
+    "query": "Find spelling mistakes in this sentence",
+    "intent": "grammar_spell_check",
+    "entities": {},
+    "response": "I'll check the sentence for spelling errors."
+  },
+  {
+    "id": 7,
+    "query": "Fix spelling errors",
+    "intent": "spelling_correction",
+    "entities": {},
+    "response": "I'll correct the spelling errors."
+  },
+  {
+    "id": 8,
+    "query": "Correct this text",
+    "intent": "text_correction",
+    "entities": {},
+    "response": "I'll check and correct the text."
+  },
+  {
+    "id": 9,
+    "query": "What is the correct spelling of recieve?",
+    "intent": "spell_correction",
+    "entities": {
+      "incorrect_word": "recieve"
+    },
+    "response": "The correct spelling is receive."
+  },
+  {
+    "id": 10,
+    "query": "How do you spell necessary?",
+    "intent": "spell_word",
+    "entities": {
+      "word": "necessary"
+    },
+    "response": "Necessary is spelled N-E-C-E-S-S-A-R-Y."
+  },
+  {
+    "id": 11,
+    "query": "Check if accomodate is spelled correctly",
+    "intent": "spell_correction",
+    "entities": {
+      "incorrect_word": "accomodate"
+    },
+    "response": "The correct spelling is accommodate."
+  },
+  {
+    "id": 12,
+    "query": "Correct the spelling in my message",
+    "intent": "message_spell_check",
+    "entities": {},
+    "response": "I'll correct spelling mistakes in your message."
+  },
+  {
+    "id": 13,
+    "query": "Is tommorow spelled correctly?",
+    "intent": "spell_correction",
+    "entities": {
+      "incorrect_word": "tommorow"
+    },
+    "response": "The correct spelling is tomorrow."
+  },
+  {
+    "id": 14,
+    "query": "Check this word for errors",
+    "intent": "spell_check",
+    "entities": {},
+    "response": "I'll check the word for spelling errors."
+  },
+  {
+    "id": 15,
+    "query": "Find the typo",
+    "intent": "find_typo",
+    "entities": {},
+    "response": "I'll look for spelling mistakes and typos."
+  },
+  {
+    "id": 16,
+    "query": "Fix the typo in my sentence",
+    "intent": "find_typo",
+    "entities": {},
+    "response": "I'll fix the typo in your sentence."
+  },
+  {
+    "id": 17,
+    "query": "How do you write this word?",
+    "intent": "spell_word",
+    "entities": {},
+    "response": "Tell me the word and I'll provide the correct spelling."
+  },
+  {
+    "id": 18,
+    "query": "Check spelling before sending",
+    "intent": "proofread_text",
+    "entities": {
+      "action": "check_before_send"
+    },
+    "response": "I'll proofread your text before you send it."
+  },
+  {
+    "id": 19,
+    "query": "Correct all spelling mistakes in this paragraph",
+    "intent": "proofread_text",
+    "entities": {
+      "scope": "paragraph"
+    },
+    "response": "I'll correct all spelling mistakes in the paragraph."
+  },
+  {
+    "id": 20,
+    "query": "Suggest the right spelling",
+    "intent": "spelling_suggestion",
+    "entities": {},
+    "response": "I'll suggest the correct spelling."
+  }
+]
