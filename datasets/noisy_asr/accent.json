@@ -1,0 +1,174 @@
+[
+  {
+    "id": 1,
+    "query": "Switch to an American accent",
+    "intent": "change_voice_accent",
+    "entities": {
+      "accent": "American"
+    },
+    "response": "Voice accent changed to American English."
+  },
+  {
+    "id": 2,
+    "query": "Use a British accent",
+    "intent": "change_voice_accent",
+    "entities": {
+      "accent": "British"
+    },
+    "response": "Voice accent changed to British English."
+  },
+  {
+    "id": 3,
+    "query": "Change your accent to Australian",
+    "intent": "change_voice_accent",
+    "entities": {
+      "accent": "Australian"
+    },
+    "response": "Voice accent changed to Australian English."
+  },
+  {
+    "id": 4,
+    "query": "Speak in an Indian accent",
+    "intent": "change_voice_accent",
+    "entities": {
+      "accent": "Indian"
+    },
+    "response": "Voice accent changed to Indian English."
+  },
+  {
+    "id": 5,
+    "query": "Switch to a Canadian accent",
+    "intent": "change_voice_accent",
+    "entities": {
+      "accent": "Canadian"
+    },
+    "response": "Voice accent changed to Canadian English."
+  },
+  {
+    "id": 6,
+    "query": "Use an Irish accent",
+    "intent": "change_voice_accent",
+    "entities": {
+      "accent": "Irish"
+    },
+    "response": "Voice accent changed to Irish English."
+  },
+  {
+    "id": 7,
+    "query": "Speak with a South African accent",
+    "intent": "change_voice_accent",
+    "entities": {
+      "accent": "South African"
+    },
+    "response": "Voice accent changed to South African English."
+  },
+  {
+    "id": 8,
+    "query": "Use a neutral English accent",
+    "intent": "change_voice_accent",
+    "entities": {
+      "accent": "Neutral"
+    },
+    "response": "Voice accent changed to a neutral English accent."
+  },
+  {
+    "id": 9,
+    "query": "Change your voice to British English",
+    "intent": "change_voice_accent",
+    "entities": {
+      "accent": "British English"
+    },
+    "response": "Now speaking in British English."
+  },
+  {
+    "id": 10,
+    "query": "I prefer an American English voice",
+    "intent": "change_voice_accent",
+    "entities": {
+      "accent": "American English"
+    },
+    "response": "Your preferred accent has been updated to American English."
+  },
+  {
+    "id": 11,
+    "query": "Reset the accent to default",
+    "intent": "reset_voice_accent",
+    "entities": {},
+    "response": "Voice accent has been reset to the default setting."
+  },
+  {
+    "id": 12,
+    "query": "What accents do you support?",
+    "intent": "list_supported_accents",
+    "entities": {},
+    "response": "Supported accents include American, British, Australian, Canadian, Indian, Irish, South African, and Neutral English."
+  },
+  {
+    "id": 13,
+    "query": "Show available voice accents",
+    "intent": "list_supported_accents",
+    "entities": {},
+    "response": "Here are the available voice accents you can choose from."
+  },
+  {
+    "id": 14,
+    "query": "Speak with an English accent",
+    "intent": "change_voice_accent",
+    "entities": {
+      "accent": "English"
+    },
+    "response": "Voice accent changed to English."
+  },
+  {
+    "id": 15,
+    "query": "Can you sound more British?",
+    "intent": "change_voice_accent",
+    "entities": {
+      "accent": "British"
+    },
+    "response": "I'll use a British English accent."
+  },
+  {
+    "id": 16,
+    "query": "Use the default voice",
+    "intent": "reset_voice_accent",
+    "entities": {},
+    "response": "Switched back to the default voice."
+  },
+  {
+    "id": 17,
+    "query": "Change to a female voice",
+    "intent": "change_voice_profile",
+    "entities": {
+      "voice": "female"
+    },
+    "response": "Voice changed to the selected female profile."
+  },
+  {
+    "id": 18,
+    "query": "Change to a male voice",
+    "intent": "change_voice_profile",
+    "entities": {
+      "voice": "male"
+    },
+    "response": "Voice changed to the selected male profile."
+  },
+  {
+    "id": 19,
+    "query": "Speak more slowly",
+    "intent": "change_speech_rate",
+    "entities": {
+      "rate": "slow"
+    },
+    "response": "I'll speak more slowly."
+  },
+  {
+    "id": 20,
+    "query": "Speak faster",
+    "intent": "change_speech_rate",
+    "entities": {
+      "rate": "fast"
+    },
+    "response": "I'll speak faster."
+  }
+]
