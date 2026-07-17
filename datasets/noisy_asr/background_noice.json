@@ -1,0 +1,166 @@
+[
+  {
+    "id": 1,
+    "query": "Reduce background noise",
+    "intent": "noise_reduction",
+    "entities": {
+      "noise_control": "reduce"
+    },
+    "response": "Background noise reduction enabled."
+  },
+  {
+    "id": 2,
+    "query": "Turn on noise cancellation",
+    "intent": "noise_cancellation_on",
+    "entities": {},
+    "response": "Noise cancellation turned on."
+  },
+  {
+    "id": 3,
+    "query": "Turn off noise cancellation",
+    "intent": "noise_cancellation_off",
+    "entities": {},
+    "response": "Noise cancellation turned off."
+  },
+  {
+    "id": 4,
+    "query": "Remove background noise from my voice",
+    "intent": "noise_filter",
+    "entities": {
+      "filter": "voice_cleanup"
+    },
+    "response": "Voice background noise filtering enabled."
+  },
+  {
+    "id": 5,
+    "query": "Make my voice clearer",
+    "intent": "voice_enhancement",
+    "entities": {
+      "enhancement": "clarity"
+    },
+    "response": "Voice clarity enhancement enabled."
+  },
+  {
+    "id": 6,
+    "query": "Enable microphone noise suppression",
+    "intent": "noise_suppression_on",
+    "entities": {},
+    "response": "Microphone noise suppression enabled."
+  },
+  {
+    "id": 7,
+    "query": "Disable microphone noise suppression",
+    "intent": "noise_suppression_off",
+    "entities": {},
+    "response": "Microphone noise suppression disabled."
+  },
+  {
+    "id": 8,
+    "query": "Ignore background sounds",
+    "intent": "background_noise_filter",
+    "entities": {
+      "mode": "ignore_noise"
+    },
+    "response": "Background sound filtering activated."
+  },
+  {
+    "id": 9,
+    "query": "I am in a noisy place",
+    "intent": "detect_noisy_environment",
+    "entities": {
+      "environment": "noisy"
+    },
+    "response": "Adjusting for a noisy environment."
+  },
+  {
+    "id": 10,
+    "query": "There is too much noise around me",
+    "intent": "detect_noisy_environment",
+    "entities": {
+      "environment": "high_noise"
+    },
+    "response": "I'll reduce the impact of surrounding noise."
+  },
+  {
+    "id": 11,
+    "query": "Improve speech recognition in noise",
+    "intent": "speech_noise_handling",
+    "entities": {
+      "feature": "speech_recognition"
+    },
+    "response": "Optimizing speech recognition for noisy conditions."
+  },
+  {
+    "id": 12,
+    "query": "Enable quiet mode",
+    "intent": "noise_control_mode",
+    "entities": {
+      "mode": "quiet"
+    },
+    "response": "Quiet mode enabled."
+  },
+  {
+    "id": 13,
+    "query": "Turn on voice isolation",
+    "intent": "voice_isolation_on",
+    "entities": {},
+    "response": "Voice isolation enabled."
+  },
+  {
+    "id": 14,
+    "query": "Turn off voice isolation",
+    "intent": "voice_isolation_off",
+    "entities": {},
+    "response": "Voice isolation disabled."
+  },
+  {
+    "id": 15,
+    "query": "Block fan noise",
+    "intent": "noise_filter",
+    "entities": {
+      "noise_type": "fan"
+    },
+    "response": "Fan noise filtering enabled."
+  },
+  {
+    "id": 16,
+    "query": "Remove traffic noise",
+    "intent": "noise_filter",
+    "entities": {
+      "noise_type": "traffic"
+    },
+    "response": "Traffic noise filtering enabled."
+  },
+  {
+    "id": 17,
+    "query": "Remove echo from my voice",
+    "intent": "echo_cancellation",
+    "entities": {},
+    "response": "Echo cancellation enabled."
+  },
+  {
+    "id": 18,
+    "query": "Enable automatic noise control",
+    "intent": "automatic_noise_control",
+    "entities": {
+      "mode": "automatic"
+    },
+    "response": "Automatic noise control enabled."
+  },
+  {
+    "id": 19,
+    "query": "How much background noise is detected?",
+    "intent": "noise_level_check",
+    "entities": {},
+    "response": "Checking current background noise level."
+  },
+  {
+    "id": 20,
+    "query": "Set noise reduction to maximum",
+    "intent": "noise_reduction_level",
+    "entities": {
+      "level": "maximum"
+    },
+    "response": "Noise reduction set to maximum."
+  }
+]
