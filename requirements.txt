@@ -1,13 +1,18 @@
-# FastAPI backend and components
-fastapi>=0.100.0
-uvicorn>=0.22.0
-pydantic>=2.0.0
-python-multipart>=0.0.6
-python-dotenv>=1.0.0
-
-# Frontend UI
-streamlit>=1.24.0
-requests>=2.31.0
-
-# SDKs for Transcription
-openai>=1.0.0
+streamlit
+pdfminer.six
+langchain
+langchain-openai
+langchain-community
+chromadb
+openai
+httpx
+tiktoken
+# streamlit>=1.35.0
+openai-whisper
+torch
+ffmpeg-python
+numpy
+streamlit-webrtc
+soundfile
+av
+python-dotenv
