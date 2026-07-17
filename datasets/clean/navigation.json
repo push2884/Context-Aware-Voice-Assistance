@@ -1,0 +1,217 @@
+[
+  {
+    "id": 1,
+    "query": "Navigate to the nearest gas station",
+    "intent": "navigate",
+    "entities": {
+      "destination": "nearest gas station"
+    },
+    "response": "Starting navigation to the nearest gas station."
+  },
+  {
+    "id": 2,
+    "query": "Take me home",
+    "intent": "navigate",
+    "entities": {
+      "destination": "home"
+    },
+    "response": "Starting navigation to home."
+  },
+  {
+    "id": 3,
+    "query": "Navigate to work",
+    "intent": "navigate",
+    "entities": {
+      "destination": "work"
+    },
+    "response": "Starting navigation to work."
+  },
+  {
+    "id": 4,
+    "query": "Find the nearest hospital",
+    "intent": "find_place",
+    "entities": {
+      "place_type": "hospital"
+    },
+    "response": "Here are the nearest hospitals."
+  },
+  {
+    "id": 5,
+    "query": "Find nearby restaurants",
+    "intent": "find_place",
+    "entities": {
+      "place_type": "restaurant"
+    },
+    "response": "Showing nearby restaurants."
+  },
+  {
+    "id": 6,
+    "query": "Find an ATM near me",
+    "intent": "find_place",
+    "entities": {
+      "place_type": "ATM"
+    },
+    "response": "Here are the nearest ATMs."
+  },
+  {
+    "id": 7,
+    "query": "Navigate to Central Park",
+    "intent": "navigate",
+    "entities": {
+      "destination": "Central Park"
+    },
+    "response": "Starting navigation to Central Park."
+  },
+  {
+    "id": 8,
+    "query": "Directions to the airport",
+    "intent": "navigate",
+    "entities": {
+      "destination": "airport"
+    },
+    "response": "Starting navigation to the airport."
+  },
+  {
+    "id": 9,
+    "query": "How far is the airport?",
+    "intent": "distance_query",
+    "entities": {
+      "destination": "airport"
+    },
+    "response": "Calculating the distance to the airport."
+  },
+  {
+    "id": 10,
+    "query": "How long will it take to reach home?",
+    "intent": "eta_query",
+    "entities": {
+      "destination": "home"
+    },
+    "response": "Calculating your estimated arrival time."
+  },
+  {
+    "id": 11,
+    "query": "Avoid toll roads",
+    "intent": "update_route_preference",
+    "entities": {
+      "preference": "avoid_tolls"
+    },
+    "response": "I'll avoid toll roads."
+  },
+  {
+    "id": 12,
+    "query": "Avoid highways",
+    "intent": "update_route_preference",
+    "entities": {
+      "preference": "avoid_highways"
+    },
+    "response": "I'll avoid highways."
+  },
+  {
+    "id": 13,
+    "query": "Find the fastest route",
+    "intent": "route_preference",
+    "entities": {
+      "preference": "fastest"
+    },
+    "response": "Finding the fastest route."
+  },
+  {
+    "id": 14,
+    "query": "Find the shortest route",
+    "intent": "route_preference",
+    "entities": {
+      "preference": "shortest"
+    },
+    "response": "Finding the shortest route."
+  },
+  {
+    "id": 15,
+    "query": "Show traffic on my route",
+    "intent": "traffic_info",
+    "entities": {},
+    "response": "Checking traffic conditions."
+  },
+  {
+    "id": 16,
+    "query": "Where am I?",
+    "intent": "current_location",
+    "entities": {},
+    "response": "Fetching your current location."
+  },
+  {
+    "id": 17,
+    "query": "Stop navigation",
+    "intent": "stop_navigation",
+    "entities": {},
+    "response": "Navigation stopped."
+  },
+  {
+    "id": 18,
+    "query": "Resume navigation",
+    "intent": "resume_navigation",
+    "entities": {},
+    "response": "Resuming navigation."
+  },
+  {
+    "id": 19,
+    "query": "Find a coffee shop nearby",
+    "intent": "find_place",
+    "entities": {
+      "place_type": "coffee shop"
+    },
+    "response": "Showing nearby coffee shops."
+  },
+  {
+    "id": 20,
+    "query": "Navigate to the nearest parking lot",
+    "intent": "navigate",
+    "entities": {
+      "destination": "nearest parking lot"
+    },
+    "response": "Starting navigation to the nearest parking lot."
+  },
+  {
+    "id": 21,
+    "query": "Find an electric vehicle charging station",
+    "intent": "find_place",
+    "entities": {
+      "place_type": "EV charging station"
+    },
+    "response": "Showing nearby EV charging stations."
+  },
+  {
+    "id": 22,
+    "query": "Navigate to the nearest pharmacy",
+    "intent": "navigate",
+    "entities": {
+      "destination": "nearest pharmacy"
+    },
+    "response": "Starting navigation to the nearest pharmacy."
+  },
+  {
+    "id": 23,
+    "query": "What's the traffic like on the way to work?",
+    "intent": "traffic_info",
+    "entities": {
+      "destination": "work"
+    },
+    "response": "Checking traffic conditions on your route to work."
+  },
+  {
+    "id": 24,
+    "query": "Find nearby hotels",
+    "intent": "find_place",
+    "entities": {
+      "place_type": "hotel"
+    },
+    "response": "Showing nearby hotels."
+  },
+  {
+    "id": 25,
+    "query": "Reroute me",
+    "intent": "reroute_navigation",
+    "entities": {},
+    "response": "Finding a better route."
+  }
+]
