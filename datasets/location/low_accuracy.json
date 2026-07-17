@@ -1,0 +1,174 @@
+[
+  {
+    "id": 1,
+    "query": "My GPS accuracy is low",
+    "intent": "low_accuracy_detection",
+    "entities": {
+      "issue": "low_gps_accuracy"
+    },
+    "response": "Checking GPS accuracy and signal quality."
+  },
+  {
+    "id": 2,
+    "query": "Location accuracy is poor",
+    "intent": "low_accuracy_detection",
+    "entities": {
+      "issue": "poor_location_accuracy"
+    },
+    "response": "Improving your location accuracy."
+  },
+  {
+    "id": 3,
+    "query": "Why is my location not accurate?",
+    "intent": "location_accuracy_issue",
+    "entities": {
+      "issue": "inaccurate_location"
+    },
+    "response": "Checking possible causes of inaccurate location."
+  },
+  {
+    "id": 4,
+    "query": "GPS accuracy is bad",
+    "intent": "low_accuracy_detection",
+    "entities": {
+      "issue": "bad_gps_accuracy"
+    },
+    "response": "Checking GPS signal strength."
+  },
+  {
+    "id": 5,
+    "query": "Improve my GPS accuracy",
+    "intent": "improve_location_accuracy",
+    "entities": {},
+    "response": "Optimizing GPS accuracy."
+  },
+  {
+    "id": 6,
+    "query": "My phone cannot find my exact location",
+    "intent": "location_accuracy_issue",
+    "entities": {
+      "issue": "location_precision"
+    },
+    "response": "Trying to improve location precision."
+  },
+  {
+    "id": 7,
+    "query": "GPS keeps showing an approximate location",
+    "intent": "low_accuracy_detection",
+    "entities": {
+      "issue": "approximate_location"
+    },
+    "response": "Improving GPS positioning accuracy."
+  },
+  {
+    "id": 8,
+    "query": "Why is my GPS taking so long to locate me?",
+    "intent": "gps_fix_delay",
+    "entities": {
+      "issue": "slow_location_fix"
+    },
+    "response": "Checking GPS signal availability."
+  },
+  {
+    "id": 9,
+    "query": "My navigation accuracy is poor",
+    "intent": "navigation_accuracy_issue",
+    "entities": {
+      "issue": "poor_navigation"
+    },
+    "response": "Checking GPS accuracy for navigation."
+  },
+  {
+    "id": 10,
+    "query": "The map cannot find my exact position",
+    "intent": "location_accuracy_issue",
+    "entities": {
+      "issue": "map_position_error"
+    },
+    "response": "Updating your current location."
+  },
+  {
+    "id": 11,
+    "query": "Enable high accuracy location mode",
+    "intent": "enable_high_accuracy",
+    "entities": {
+      "mode": "high_accuracy"
+    },
+    "response": "High accuracy location mode enabled."
+  },
+  {
+    "id": 12,
+    "query": "Turn on precise location",
+    "intent": "enable_precise_location",
+    "entities": {},
+    "response": "Precise location enabled."
+  },
+  {
+    "id": 13,
+    "query": "Why is my GPS signal weak?",
+    "intent": "gps_signal_issue",
+    "entities": {
+      "issue": "weak_signal"
+    },
+    "response": "Checking GPS signal strength."
+  },
+  {
+    "id": 14,
+    "query": "Location is inaccurate indoors",
+    "intent": "gps_environment_issue",
+    "entities": {
+      "environment": "indoor"
+    },
+    "response": "GPS accuracy may improve near a window or outdoors."
+  },
+  {
+    "id": 15,
+    "query": "My location jumps randomly",
+    "intent": "gps_accuracy_issue",
+    "entities": {
+      "issue": "unstable_location"
+    },
+    "response": "Checking for unstable GPS signals."
+  },
+  {
+    "id": 16,
+    "query": "Check my location accuracy",
+    "intent": "check_location_accuracy",
+    "entities": {},
+    "response": "Checking your current location accuracy."
+  },
+  {
+    "id": 17,
+    "query": "GPS is inaccurate after turning it on",
+    "intent": "gps_initialization_issue",
+    "entities": {
+      "issue": "startup_accuracy"
+    },
+    "response": "Calibrating GPS after startup."
+  },
+  {
+    "id": 18,
+    "query": "My location circle is too large",
+    "intent": "low_accuracy_detection",
+    "entities": {
+      "issue": "large_accuracy_radius"
+    },
+    "response": "Reducing your location accuracy radius."
+  },
+  {
+    "id": 19,
+    "query": "Fix inaccurate GPS readings",
+    "intent": "gps_recalibration",
+    "entities": {},
+    "response": "Recalibrating GPS readings."
+  },
+  {
+    "id": 20,
+    "query": "Location services are not precise",
+    "intent": "location_service_accuracy",
+    "entities": {
+      "issue": "low_precision"
+    },
+    "response": "Checking location service precision settings."
+  }
+]
