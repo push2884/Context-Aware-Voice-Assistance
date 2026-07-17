@@ -1,0 +1,215 @@
+[
+  {
+    "id": 1,
+    "query": "What's the weather today?",
+    "intent": "weather_current",
+    "entities": {
+      "date": "today",
+      "location": null
+    },
+    "response": "Fetching today's weather."
+  },
+  {
+    "id": 2,
+    "query": "Will it rain today?",
+    "intent": "weather_rain",
+    "entities": {
+      "date": "today"
+    },
+    "response": "Checking today's rain forecast."
+  },
+  {
+    "id": 3,
+    "query": "What's the weather tomorrow?",
+    "intent": "weather_forecast",
+    "entities": {
+      "date": "tomorrow"
+    },
+    "response": "Fetching tomorrow's weather forecast."
+  },
+  {
+    "id": 4,
+    "query": "How hot is it outside?",
+    "intent": "temperature_current",
+    "entities": {},
+    "response": "Checking the current temperature."
+  },
+  {
+    "id": 5,
+    "query": "Is it sunny outside?",
+    "intent": "weather_condition",
+    "entities": {},
+    "response": "Checking the current weather conditions."
+  },
+  {
+    "id": 6,
+    "query": "What's the temperature right now?",
+    "intent": "temperature_current",
+    "entities": {},
+    "response": "Fetching the current temperature."
+  },
+  {
+    "id": 7,
+    "query": "Will I need an umbrella today?",
+    "intent": "weather_rain",
+    "entities": {
+      "date": "today"
+    },
+    "response": "Checking if rain is expected today."
+  },
+  {
+    "id": 8,
+    "query": "Is it going to snow today?",
+    "intent": "weather_snow",
+    "entities": {
+      "date": "today"
+    },
+    "response": "Checking today's snow forecast."
+  },
+  {
+    "id": 9,
+    "query": "What's the weather this weekend?",
+    "intent": "weather_forecast",
+    "entities": {
+      "date": "weekend"
+    },
+    "response": "Fetching the weekend weather forecast."
+  },
+  {
+    "id": 10,
+    "query": "What's the weather in New York?",
+    "intent": "weather_location",
+    "entities": {
+      "location": "New York"
+    },
+    "response": "Fetching the weather for New York."
+  },
+  {
+    "id": 11,
+    "query": "Show me the weekly forecast",
+    "intent": "weather_weekly",
+    "entities": {
+      "duration": "7 days"
+    },
+    "response": "Here's the weekly weather forecast."
+  },
+  {
+    "id": 12,
+    "query": "How windy is it?",
+    "intent": "wind_speed",
+    "entities": {},
+    "response": "Checking the current wind speed."
+  },
+  {
+    "id": 13,
+    "query": "What's the humidity today?",
+    "intent": "humidity",
+    "entities": {
+      "date": "today"
+    },
+    "response": "Checking today's humidity."
+  },
+  {
+    "id": 14,
+    "query": "What's the air quality like?",
+    "intent": "air_quality",
+    "entities": {},
+    "response": "Fetching the current air quality."
+  },
+  {
+    "id": 15,
+    "query": "Is there a storm coming?",
+    "intent": "weather_alert",
+    "entities": {},
+    "response": "Checking for weather alerts."
+  },
+  {
+    "id": 16,
+    "query": "Will it be hot tomorrow?",
+    "intent": "temperature_forecast",
+    "entities": {
+      "date": "tomorrow"
+    },
+    "response": "Checking tomorrow's temperature forecast."
+  },
+  {
+    "id": 17,
+    "query": "What's the chance of rain tomorrow?",
+    "intent": "weather_rain_probability",
+    "entities": {
+      "date": "tomorrow"
+    },
+    "response": "Checking tomorrow's chance of rain."
+  },
+  {
+    "id": 18,
+    "query": "Is it foggy outside?",
+    "intent": "weather_condition",
+    "entities": {
+      "condition": "fog"
+    },
+    "response": "Checking if it's foggy."
+  },
+  {
+    "id": 19,
+    "query": "What's the UV index today?",
+    "intent": "uv_index",
+    "entities": {
+      "date": "today"
+    },
+    "response": "Checking today's UV index."
+  },
+  {
+    "id": 20,
+    "query": "Give me today's weather summary",
+    "intent": "weather_summary",
+    "entities": {
+      "date": "today"
+    },
+    "response": "Here's today's weather summary."
+  },
+  {
+    "id": 21,
+    "query": "Will it be cold tonight?",
+    "intent": "temperature_forecast",
+    "entities": {
+      "date": "tonight"
+    },
+    "response": "Checking tonight's temperature forecast."
+  },
+  {
+    "id": 22,
+    "query": "Is there a heatwave warning?",
+    "intent": "weather_alert",
+    "entities": {
+      "alert_type": "heatwave"
+    },
+    "response": "Checking for heatwave warnings."
+  },
+  {
+    "id": 23,
+    "query": "What's the feels like temperature?",
+    "intent": "feels_like_temperature",
+    "entities": {},
+    "response": "Checking the feels-like temperature."
+  },
+  {
+    "id": 24,
+    "query": "Will it be cloudy today?",
+    "intent": "weather_condition_forecast",
+    "entities": {
+      "condition": "cloudy",
+      "date": "today"
+    },
+    "response": "Checking today's cloud forecast."
+  },
+  {
+    "id": 25,
+    "query": "Do I need a jacket today?",
+    "intent": "clothing_recommendation",
+    "entities": {
+      "date": "today"
+    },
+    "response": "Checking today's weather to recommend suitable clothing."
+  }
+]
