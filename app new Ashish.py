@@ -18,7 +18,7 @@ def load_financial_data():
     try:
 
         with open(
-            "Financial_Assessment.txt",
+            "Finincial_Assessment_of_Alpha.txt",
             "r",
             encoding="utf-8"
         ) as file:
