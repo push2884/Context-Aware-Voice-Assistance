@@ -1,0 +1,193 @@
+[
+  {
+    "id": 1,
+    "query": "What time is it?",
+    "intent": "time_location_query",
+    "entities": {
+      "modality": "multimodal",
+      "location_source": "current_location"
+    },
+    "response": "Checking the current time for your location."
+  },
+  {
+    "id": 2,
+    "query": "Tell me the current time where I am",
+    "intent": "current_location_time",
+    "entities": {
+      "location": "current",
+      "input_mode": "voice"
+    },
+    "response": "Fetching the current time at your location."
+  },
+  {
+    "id": 3,
+    "query": "What time is it in my city?",
+    "intent": "time_by_location",
+    "entities": {
+      "location_source": "device_location"
+    },
+    "response": "Finding the current time based on your location."
+  },
+  {
+    "id": 4,
+    "query": "Tell me the time using my GPS location",
+    "intent": "gps_time_query",
+    "entities": {
+      "sensor": "GPS",
+      "modality": "multimodal"
+    },
+    "response": "Using your GPS location to determine the current time."
+  },
+  {
+    "id": 5,
+    "query": "What time zone am I in?",
+    "intent": "timezone_detection",
+    "entities": {
+      "location_source": "current_location"
+    },
+    "response": "Checking your current time zone."
+  },
+  {
+    "id": 6,
+    "query": "What is the local time here?",
+    "intent": "local_time_query",
+    "entities": {
+      "location": "current"
+    },
+    "response": "Getting the local time for your location."
+  },
+  {
+    "id": 7,
+    "query": "What time is it in New York?",
+    "intent": "time_by_city",
+    "entities": {
+      "location": "New York"
+    },
+    "response": "Fetching the current time in New York."
+  },
+  {
+    "id": 8,
+    "query": "Show the time on the map",
+    "intent": "time_map_view",
+    "entities": {
+      "modality": "visual",
+      "feature": "map"
+    },
+    "response": "Showing local time information on the map."
+  },
+  {
+    "id": 9,
+    "query": "Read the current time aloud",
+    "intent": "audio_time_output",
+    "entities": {
+      "output_mode": "speech"
+    },
+    "response": "Reading the current time aloud."
+  },
+  {
+    "id": 10,
+    "query": "What time is it at my destination?",
+    "intent": "destination_time_query",
+    "entities": {
+      "location_source": "navigation_destination"
+    },
+    "response": "Checking the local time at your destination."
+  },
+  {
+    "id": 11,
+    "query": "Tell me the time before I travel",
+    "intent": "travel_time_check",
+    "entities": {
+      "purpose": "travel"
+    },
+    "response": "Checking the local time for your travel destination."
+  },
+  {
+    "id": 12,
+    "query": "Compare my time with London time",
+    "intent": "time_comparison",
+    "entities": {
+      "locations": [
+        "current_location",
+        "London"
+      ]
+    },
+    "response": "Comparing your local time with London time."
+  },
+  {
+    "id": 13,
+    "query": "Is it morning or evening here?",
+    "intent": "time_period_detection",
+    "entities": {
+      "location": "current"
+    },
+    "response": "Checking the current time period."
+  },
+  {
+    "id": 14,
+    "query": "What date and time is it here?",
+    "intent": "datetime_location_query",
+    "entities": {
+      "location_source": "current_location"
+    },
+    "response": "Fetching the current date and time."
+  },
+  {
+    "id": 15,
+    "query": "Find the local time at my office",
+    "intent": "saved_location_time_query",
+    "entities": {
+      "location": "office"
+    },
+    "response": "Checking the current time at your office location."
+  },
+  {
+    "id": 16,
+    "query": "What time will it be at my destination when I arrive?",
+    "intent": "arrival_time_zone_query",
+    "entities": {
+      "feature": "arrival_time_prediction"
+    },
+    "response": "Calculating destination local time at arrival."
+  },
+  {
+    "id": 17,
+    "query": "Use my location to show the clock",
+    "intent": "location_clock_display",
+    "entities": {
+      "modality": "visual",
+      "location_source": "GPS"
+    },
+    "response": "Displaying the clock based on your location."
+  },
+  {
+    "id": 18,
+    "query": "What is the time difference from here to Tokyo?",
+    "intent": "time_difference_query",
+    "entities": {
+      "destination": "Tokyo"
+    },
+    "response": "Calculating the time difference."
+  },
+  {
+    "id": 19,
+    "query": "Tell me the time zone of this place",
+    "intent": "timezone_location_query",
+    "entities": {
+      "location_source": "visual_location"
+    },
+    "response": "Identifying the time zone for this location."
+  },
+  {
+    "id": 20,
+    "query": "Give me the current time with my location details",
+    "intent": "multimodal_time_location_summary",
+    "entities": {
+      "features": [
+        "time",
+        "location"
+      ]
+    },
+    "response": "Providing current time and location details."
+  }
+]
