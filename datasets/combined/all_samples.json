@@ -1,0 +1,132 @@
+{
+  "dataset_name": "voice_assistant_all_samples",
+  "version": "1.0",
+  "samples": [
+    {
+      "category": "basic_queries",
+      "intent": "greeting",
+      "query": "Hello",
+      "entities": {},
+      "response": "Hello! How can I help you today?"
+    },
+    {
+      "category": "navigation",
+      "intent": "navigate",
+      "query": "Navigate to the nearest gas station",
+      "entities": {
+        "destination": "nearest gas station"
+      },
+      "response": "Starting navigation to the nearest gas station."
+    },
+    {
+      "category": "weather",
+      "intent": "weather_current",
+      "query": "What's the weather today?",
+      "entities": {
+        "date": "today"
+      },
+      "response": "Fetching today's weather."
+    },
+    {
+      "category": "reminders",
+      "intent": "set_reminder",
+      "query": "Remind me to drink water at 5 PM",
+      "entities": {
+        "task": "drink water",
+        "time": "5:00 PM"
+      },
+      "response": "Reminder set to drink water at 5:00 PM."
+    },
+    {
+      "category": "accent",
+      "intent": "change_voice_accent",
+      "query": "Switch to an American accent",
+      "entities": {
+        "accent": "American"
+      },
+      "response": "Voice accent changed to American English."
+    },
+    {
+      "category": "background_noise",
+      "intent": "noise_reduction",
+      "query": "Reduce background noise",
+      "entities": {
+        "noise_control": "reduce"
+      },
+      "response": "Background noise reduction enabled."
+    },
+    {
+      "category": "spelling_error",
+      "intent": "spelling_correction",
+      "query": "Correct my spelling",
+      "entities": {},
+      "response": "Sure, I can help correct spelling mistakes."
+    },
+    {
+      "category": "gps_drift",
+      "intent": "gps_drift_issue",
+      "query": "GPS is showing the wrong location",
+      "entities": {
+        "issue": "incorrect_location"
+      },
+      "response": "I'll help correct your GPS location."
+    },
+    {
+      "category": "low_accuracy",
+      "intent": "low_accuracy_detection",
+      "query": "My GPS accuracy is low",
+      "entities": {
+        "issue": "low_gps_accuracy"
+      },
+      "response": "Checking GPS accuracy and signal quality."
+    },
+    {
+      "category": "indoor",
+      "intent": "indoor_location_issue",
+      "query": "My GPS is inaccurate indoors",
+      "entities": {
+        "environment": "indoor"
+      },
+      "response": "GPS accuracy may be reduced indoors."
+    },
+    {
+      "category": "geofence",
+      "intent": "create_geofence",
+      "query": "Create a geofence around my home",
+      "entities": {
+        "location": "home"
+      },
+      "response": "Geofence created around your home."
+    },
+    {
+      "category": "audio_location",
+      "intent": "audio_location_query",
+      "query": "Where am I?",
+      "entities": {
+        "modality": "audio",
+        "location_request": "current_location"
+      },
+      "response": "I'll determine your current location."
+    },
+    {
+      "category": "weather_location",
+      "intent": "weather_location_query",
+      "query": "What's the weather in my location?",
+      "entities": {
+        "modality": "multimodal",
+        "location_source": "current_location"
+      },
+      "response": "Fetching weather information for your current location."
+    },
+    {
+      "category": "time_location",
+      "intent": "time_location_query",
+      "query": "What time is it?",
+      "entities": {
+        "modality": "multimodal",
+        "location_source": "current_location"
+      },
+      "response": "Checking the current time for your location."
+    }
+  ]
+}
